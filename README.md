@@ -5,5 +5,3 @@ For å se sidene, skriv inn linken som dette:
 
 https://rawgit.com/FSjursaether/kodeklubbenHV/master/index.html
 
-Alternativt:
-https://cdn.rawgit.com/FSjursaether/kodeklubbenHV/master/index.html
