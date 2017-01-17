@@ -1,7 +1,6 @@
 # kodeklubbenHV
 Koding for Kodeklubben Høvik Verk
 
-For å se sidene, skriv inn linken som dette:
+For å se sidene, åpne denne lenken:
 
-https://rawgit.com/FSjursaether/kodeklubbenHV/master/index.html
-
+https://fsjursaether.github.io/kodeklubbenHV/
