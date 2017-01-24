@@ -9,8 +9,7 @@ https://fsjursaether.github.io/kodeklubbenHV/
 Er dere smarte (!) så ta en titt på de andre sine koder og kopier hva de gjør!
 
 ##### En enkel side
-&lt;!DOCTYPE html&gt;
-  
+&lt;!DOCTYPE html&gt;  
 &lt;html&gt;  
   &lt;head&gt;
   
