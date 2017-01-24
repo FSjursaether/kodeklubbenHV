@@ -9,15 +9,15 @@ https://fsjursaether.github.io/kodeklubbenHV/
 Er dere smarte (!) så ta en titt på de andre sine koder og kopier hva de gjør!
 
 ##### En enkel side
-<!DOCTYPE html>
-<html>
-  <head>
-  <title>Tittel på siden</title>
-  </head>
-  <body>
+'<!DOCTYPE html>'
+'<html>'
+  '<head>'
+  '<title>'Tittel på siden'</title>'
+  '</head>'
+  '<body>'
   ...
-  </body>
-</html>
+  '</body>'
+'</html>'
 
 ##### Ting som går i head
 <meta name="..." content="...." />
