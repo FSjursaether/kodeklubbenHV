@@ -20,62 +20,62 @@ Er dere smarte (!) så ta en titt på de andre sine koder og kopier hva de gjør
 &lt;/html&gt;  
 
 ##### Ting som går i head
-<meta name="..." content="...." />
-<style type="text/css">...</style>
-<link rel="stylesheet" type="text/css" href="..." />
-<script type="text/javascript">Javascript kode</script>
-<link rel="shortcut icon" type="image/x-icon" href="..." />
+&lt;meta name="..." content="...." /&gt;  
+&lt;style type="text/css"&gt...&lt;/style&gt;  
+&lt;link rel="stylesheet" type="text/css" href="..." /&gt;  
+&lt;script type="text/javascript"&gt;Javascript kode&lt;/script&gt;  
+&lt;link rel="shortcut icon" type="image/x-icon" href="..." /&gt;  
 
 ##### Overskrifter
-  <h1>Her er den største overskriften</h1>
-  <h2>Her er den andre største overskriften</h2>
-  <h3>Her er den tredje største overskriften</h3>
-  <h4>Her er den fjerde største overskriften</h4>
-  <h5>Her en den femte største overskriften</h5>
-  <h6>Her den den sjette største (og minste) overskriften</h6>
+  &lt;h1&gt;Her er den største overskriften&lt;/h1&gt;  
+  &lt;h2&gt;Her er den andre største overskriften&lt;/h2&gt;  
+  &lt;h3&gt;Her er den tredje største overskriften&lt;/h3&gt;  
+  &lt;h4&gt;Her er den fjerde største overskriften&lt;/h4&gt;  
+  &lt;h5&gt;Her en den femte største overskriften&lt;/h5&gt;  
+  &lt;h6&gt;Her den den sjette største (og minste) overskriften&lt;/h6&gt;  
 
 ##### Tekst
-  <br /> Dette er ett linjeskift
-  <b>Dette er uthevet (bold)</b>
-  <strong>Dette er også uthevet (strong)</strong>
-  <em>Dette er også uthevet (em)</em>
-  <i>Dette er i kursiv (italics)</i>
-  <big>STORE BOKSTAVER</big>
-  <small>små bokstaver</small>
-  <sub>Tekst i sub</sub>
-  <sup>Tekst i sup</sup>
+  &lt;br /&gt; Dette er ett linjeskift  
+  &lt;b&gt;Dette er uthevet (bold)&lt;/b&gt;  
+  &lt;strong&gt;Dette er også uthevet (strong)&lt;/strong&gt;  
+  &lt;em&gt;Dette er også uthevet (em)&lt;/em&gt;  
+  &lt;i&gt;Dette er i kursiv (italics)&lt;/i&gt;  
+  &lt;big&gt;STORE BOKSTAVER&lt;/big&gt;  
+  &lt;small&gt;små bokstaver&lt;/small&gt;  
+  &lt;sub&gt;Tekst i sub&lt;/sub&gt;  
+  &lt;sup&gt;Tekst i sup&lt;/sup&gt;  
 
 ##### Lenker
 Lenke til ett bilde
-<img src="...." width="..." height="..." />
+&lt;img src="...." width="..." height="..." /&gt;  
 
 Lenke til en annen side
-<a href="...">Lenketekst</a>
+&lt;a href="..."&gt;Lenketekst&lt;/a&gt;  
 
 Lenke til en epost
-<a href="mailto:epost@example.com?Subject=Heisann" target="_top">Send epost</a>
+&lt;a href="mailto:epost@example.com?Subject=Heisann" target="_top"&gt;Send epost&lt;/a&gt;  
 
 Lenke til en Youtube video
 1. Først bruk Puffin til å Del > Innlegg og kopier koden som vises inn i src
-<iframe width="..." height="..." src="..." frameborder="0" allowfullscreen></iframe>
+&lt;iframe width="..." height="..." src="..." frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;  
 
 ##### Lister
 En ordnet liste
-<ol>
-  <li>Nummer 1</li>
-  <li>Nummer 2</li>
-</ol>
+&lt;ol&gt;  
+  &lt;li&gt;Nummer 1&lt;/li&gt;  
+  &lt;li&gt;Nummer 2&lt;/li&gt;  
+&lt;/ol&gt;  
 
 Uordnet liste
-<ul>
-  <li>Første punkt</li>
-  <li>Andre punkt</li>
-</ul>
+&lt;ul&gt;  
+  &lt;li&gt;Første punkt&lt;/li&gt;  
+  &lt;li&gt;Andre punkt&lt;/li&gt;  
+&lt;/ul&gt;  
 
 Begrepsslister
-<dl>
-  <dt>Begrepet</dt>
-  <dd>Beskrivelsen</dd>
-</dl>
+&lt;dl&gt;  
+  &lt;dt&gt;Begrepet&lt;/dt&gt;  
+  &lt;dd&gt;Beskrivelsen&lt;/dd&gt;  
+&lt;/dl&gt;  
 
 ##### Tabeller
