@@ -35,7 +35,7 @@ Er dere smarte (!) så ta en titt på de andre sine koder og kopier hva de gjør
   &lt;h6&gt;Her den den sjette største (og minste) overskriften&lt;/h6&gt;  
 
 ##### Tekst
-  &lt;br /&gt; Dette er ett linjeskift  
+  &lt;br /&gt; Dette er ett linjeskift   
   &lt;b&gt;Dette er uthevet (bold)&lt;/b&gt;  
   &lt;strong&gt;Dette er også uthevet (strong)&lt;/strong&gt;  
   &lt;em&gt;Dette er også uthevet (em)&lt;/em&gt;  
@@ -46,33 +46,33 @@ Er dere smarte (!) så ta en titt på de andre sine koder og kopier hva de gjør
   &lt;sup&gt;Tekst i sup&lt;/sup&gt;  
 
 ##### Lenker
-Lenke til ett bilde
+Lenke til ett bilde  
 &lt;img src="...." width="..." height="..." /&gt;  
 
-Lenke til en annen side
+Lenke til en annen side  
 &lt;a href="..."&gt;Lenketekst&lt;/a&gt;  
 
-Lenke til en epost
+Lenke til en epost  
 &lt;a href="mailto:epost@example.com?Subject=Heisann" target="_top"&gt;Send epost&lt;/a&gt;  
 
-Lenke til en Youtube video
+Lenke til en Youtube video  
 1. Først bruk Puffin til å Del > Innlegg og kopier koden som vises inn i src
 &lt;iframe width="..." height="..." src="..." frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;  
 
 ##### Lister
-En ordnet liste
+En ordnet liste  
 &lt;ol&gt;  
   &lt;li&gt;Nummer 1&lt;/li&gt;  
   &lt;li&gt;Nummer 2&lt;/li&gt;  
 &lt;/ol&gt;  
 
-Uordnet liste
+Uordnet liste  
 &lt;ul&gt;  
   &lt;li&gt;Første punkt&lt;/li&gt;  
   &lt;li&gt;Andre punkt&lt;/li&gt;  
 &lt;/ul&gt;  
 
-Begrepsslister
+Begrepsslister  
 &lt;dl&gt;  
   &lt;dt&gt;Begrepet&lt;/dt&gt;  
   &lt;dd&gt;Beskrivelsen&lt;/dd&gt;  
