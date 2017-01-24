@@ -56,7 +56,7 @@ Lenke til en epost
 &lt;a href="mailto:epost@example.com?Subject=Heisann" target="_top"&gt;Send epost&lt;/a&gt;  
 
 Lenke til en Youtube video  
-1. Først bruk Puffin til å Del > Innlegg og kopier koden som vises inn i src
+1. Først bruk Puffin til å Del > Innlegg og kopier koden som vises inn i src  
 &lt;iframe width="..." height="..." src="..." frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;  
 
 ### Lister
