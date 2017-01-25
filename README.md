@@ -106,4 +106,12 @@ Er dere smarte (!) så ta en titt på de andre sine koder og kopier hva de gjør
   Last name:&lt;br&gt;  
   &lt;input type="text" name="lastname" value="Mouse"&gt;&lt;br&gt;&lt;br&gt;  
   &lt;input type="submit" value="Send"&gt;  
-&lt;/form>
+&lt;/form&gt;  
+
+**Skjema med nedfell meny**  
+&lt;select name="cars"&gt;  
+  &lt;option value="1"&gt;En</option&gt;  
+  &lt;option value="2"&gt;To</option&gt;  
+  &lt;option value="3"&gt;Tre</option&gt;  
+  &lt;option value="4"&gtFire</option&gt;  
+&lt;/select&gt;  
