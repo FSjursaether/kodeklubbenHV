@@ -89,3 +89,12 @@ Er dere smarte (!) så ta en titt på de andre sine koder og kopier hva de gjør
 &lt;td&gt;...&lt;/td&gt;  
 &lt;/tr&gt;  
 &lt;/table&gt;  
+
+### Skjema  
+**Ett enkelt skjema**  
+&lt;form&gt;  
+  Fornavn:&lt;br&gt;  
+  &lt;input type="text" name="firstname"&gt;<br&gt;  
+  Last name:&lt;br&gt;  
+  &lt;input type="text" name="lastname"&gt;  
+&lt;/form&gt;  
