@@ -98,3 +98,12 @@ Er dere smarte (!) så ta en titt på de andre sine koder og kopier hva de gjør
   Last name:&lt;br&gt;  
   &lt;input type="text" name="lastname"&gt;  
 &lt;/form&gt;  
+
+**Skjema med en knapp og verdier**  
+&lt;form&gt;  
+  First name:&lt;br&gt;  
+  &lt;input type="text" name="firstname" value="Mickey"&gt;&lt;br&gt;  
+  Last name:&lt;br&gt;  
+  &lt;input type="text" name="lastname" value="Mouse"&gt;&lt;br&gt;&lt;br&gt;  
+  &lt;input type="submit" value="Send"&gt;  
+&lt;/form>
