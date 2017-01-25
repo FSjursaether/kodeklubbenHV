@@ -113,5 +113,5 @@ Er dere smarte (!) så ta en titt på de andre sine koder og kopier hva de gjør
   &lt;option value="1"&gt;En</option&gt;  
   &lt;option value="2"&gt;To</option&gt;  
   &lt;option value="3"&gt;Tre</option&gt;  
-  &lt;option value="4"&gtFire</option&gt;  
+  &lt;option value="4"&gt;Fire</option&gt;  
 &lt;/select&gt;  
