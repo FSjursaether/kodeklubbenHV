@@ -10,7 +10,7 @@
   <p>Denne oppskriften er nok til 6 personer</p>
 <h3>Ingredienser</h3>
 <li>100 gram smør</li>
-<li>100 gram mørk sjokolade, 70% kakao</li>
+  <li><span id="sjokolade">100</span> gram mørk sjokolade, 70% kakao</li>
 <li>4 stk egg</li>
 <li>1 dl sukker</li>
 <li>1 dl hvetemel</li>
@@ -18,6 +18,18 @@
   <H4>  Tilbehør  </H4>
 <li>En pakke jordbær</li>
 <li>en spiseskje melis</li>
+
+<script>
+function myCalc() {        
+var sjokolade = document.getElementById("sjokolade").innerHTML;
+alert("Sjokolade var = " + Sjokolade);
+var antall = document.getElementById("antall").value;
+alert("Antall er = " + antall);
+var total = sjokolade * antall;
+alert("Total er = " + total);
+document.getElementById("sjokolade").innerHTML=total;
+}
+</script>
 <br>
 <br>
 <img src="http://images.matprat.no/ya47yfh6fy-jumbotron/large"height="400"/>
