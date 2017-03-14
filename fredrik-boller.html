@@ -43,10 +43,12 @@
     <input type="text" name="antall" value="" id="antall" />
     <input type="button" value="Klikk" onclick="myCalc()" />
     <script>
-      var melk = document.getElementById("melk").value;
-      var antall = document.getElementById("antall").value;
-      var total = melk * antall;
-      document.getElementById("melk").innerHTML=total;
+      function myCalc() {
+        var melk = document.getElementById("melk").value;
+        var antall = document.getElementById("antall").value;
+        var total = melk * antall;
+        document.getElementById("melk").innerHTML=total;
+      }
     </script>
     <p></p>
     <h2>Fremgangsmåte</h2>
