@@ -23,8 +23,19 @@
     </style>
     <link rel="icon" href="http://icons.iconseeker.com/png/fullsize/sticker-pack-1/skull-bw.png">
     <link rel="shortcut icon" href="http://icons.iconseeker.com/png/fullsize/sticker-pack-1/skull-bw.png">
+    <script>
+      var melk = document.getElementById("melk").value;
+      alert("Melk var = " + melk);
+      function myCalc() {        
+        var antall = document.getElementById("antall").value;
+        alert("Antall er = " + antall);
+        var total = melk * antall;
+        alert("Total er = " + total);
+        document.getElementById("melk").innerHTML=total;
+      }
+    </script>
   </head>
-  <body>
+  <body onload="onload();">
     <h1>Fredrik's Fabelaktige Boller</h1>
     <p>Denne oppskriften er lånt fra Matprat.no <a href="http://www.matprat.no/oppskrifter/kos/hveteboller/" target="_top">Hveteboller oppskrift</a></p>
     <img src="http://images.matprat.no/chll4dlpl2-jumbotron/large"/>
@@ -41,15 +52,8 @@
     </ul>
     <p></p>
     <input type="text" name="antall" value="" id="antall" />
-    <input type="button" value="Klikk" onclick="myCalc()" />
-    <script>
-      function myCalc() {
-        var melk = document.getElementById("melk").value;
-        var antall = document.getElementById("antall").value;
-        var total = melk * antall;
-        document.getElementById("melk").innerHTML=total;
-      }
-    </script>
+    <input type="button" value="Klikk" onclick="myCalc();" />
+    
     <p></p>
     <h2>Fremgangsmåte</h2>
     <ol class="fremgang">
