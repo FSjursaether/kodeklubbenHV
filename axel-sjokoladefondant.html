@@ -3,6 +3,14 @@
 <head>
 <title>Axels sjokoladefondant oppskrift</title>
   <meta name="Axels sjokoladefondant opppskrift" content="sjokoladefondant"/>
+  <script>
+function myCalc() {      
+  var sjokolade = document.getElementById("sjokolade").innerHTML;
+  alert("Sjokolade var = " + Sjokolade);
+  var antall = document.getElementById("antall").value;
+  alert("Antall var sjokolade = document.getElementById("sjokolade").innerHTML;
+  alert("Sjokolade var = " + Sjokolade); = " + antall);
+  var total = sjokolade * antall;
 </head>
 <body bgcolor="whitesmoke" onload="onload();">
 
@@ -20,13 +28,11 @@
 <li>en spiseskje melis</li>
     <input type="text" name="antall" value="" id="antall" />
     <input type="button" value="Klikk" onclick="myCalc();" />
-<script>
-function myCalc() {        
-var sjokolade = document.getElementById("sjokolade").innerHTML;
-alert("Sjokolade var = " + Sjokolade);
-var antall = document.getElementById("antall").value;
-alert("Antall er = " + antall);
-var total = sjokolade * antall;
+
+
+
+
+
 alert("Total er = " + total);
 document.getElementById("sjokolade").innerHTML=total;
 }
