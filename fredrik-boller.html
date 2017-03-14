@@ -30,7 +30,7 @@
     <img src="http://images.matprat.no/chll4dlpl2-jumbotron/large"/>
     <h2 class="ingredienser">Ingredienser</h2>
     <ul class="ingredienser">
-      <li>6 dl melk</li>
+      <li><span id="melk">6</span> dl melk</li>
       <li>150 g tsmør</li>
       <li>1 pk gjær</li>
       <li>1.5 dl sukker</li>
@@ -39,6 +39,15 @@
       <li>4 dl rosiner</li>
       <li>1 stk sammenvispet egg til pensling</li>
     </ul>
+    <p></p>
+    <input type="text" name="antall" value="" id="antall" />
+    <input type="button" value="Klikk" onclick="myCalc()" />
+    <script>
+      var melk = document.getElementById("melk").value;
+      var antall = document.getElementById("antall").value;
+      var total = melk * antall;
+      document.getElementById("melk").innerHTML=total;
+    </script>
     <p></p>
     <h2>Fremgangsmåte</h2>
     <ol class="fremgang">
